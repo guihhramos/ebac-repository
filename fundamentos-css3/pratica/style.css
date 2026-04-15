@@ -1,0 +1,98 @@
+/* RESET CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* GERAL */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* HEADER */
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* NAV */
+nav {
+  background-color: #222;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+nav li {
+  margin: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+}
+
+/* PSEUDO-CLASS */
+nav a:hover {
+  background-color: gray;
+  border-radius: 5px;
+}
+
+/* MAIN */
+main {
+  padding: 20px;
+}
+
+/* SECTIONS */
+section {
+  margin-bottom: 30px;
+}
+
+/* CARDS (PROJETOS) */
+.card {
+  background: white;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* PSEUDO-ELEMENT */
+.card::before {
+  content: "🚀 ";
+}
+
+/* LISTA */
+ul li {
+  margin: 5px 0;
+}
+
+/* ASIDE */
+aside {
+  background: #ddd;
+  padding: 15px;
+  margin: 20px 0;
+  border-left: 5px solid black;
+}
+
+/* FOOTER */
+footer {
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* BOTÃO (exemplo de active) */
+button:active {
+  transform: scale(0.95);
+}
