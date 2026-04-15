@@ -1,0 +1,35 @@
+
+/* 🎯 1. Seletores
+
+São usados para selecionar os elementos HTML que você quer estilizar.
+
+Exemplos: */
+
+p {
+  color: blue;
+}
+
+#titulo {
+  font-size: 24px;
+}
+
+.classe {
+  background-color: gray;
+}
+
+/* p → seleciona todas as tags <p>
+#titulo → seleciona pelo id
+.classe → seleciona pela classe */
+
+
+/*🎨 2. Propriedades e Valores
+
+O CSS funciona com propriedade + valor.*/
+
+h1 {
+  color: red;
+  font-size: 30px;
+}
+/*color → propriedade
+red → valor*/
+
